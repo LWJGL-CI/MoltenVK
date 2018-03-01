@@ -455,6 +455,7 @@ function build_impl() {
 		-enableUndefinedBehaviorSanitizer "${XC_USE_UBSAN}"		\
 		-derivedDataPath "${XC_LCL_DD_PATH}"					\
 		${XC_BUILD_VERBOSITY}									\
+		${LWJGL_PARAMS}									\
 		build
 
 	echo Completed building external libraries for ${XC_PLTFM}
