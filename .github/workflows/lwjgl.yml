@@ -23,10 +23,10 @@ jobs:
         include:
           - ARCH: x64
             ARCHS: x86_64
-            MACOS: 11.0
+            MACOS: "11.0"
           - ARCH: arm64
             ARCHS: arm64
-            MACOS: 11.0
+            MACOS: "11.0"
     steps:
       - uses: actions/checkout@v7
         with:
